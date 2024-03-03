@@ -3,3 +3,4 @@ streamlit==1.31.1
 yt-dlp==2023.12.30
 pydub==0.25.1
 ffmpeg==1.4
+ffprobe==0.5
