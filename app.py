@@ -1,3 +1,6 @@
+import sys
+sys.path.append('/opt/homebrew/bin/ffmpeg')
+
 import streamlit as st
 from mymashup import main
 import zipfile
