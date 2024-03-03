@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 import base64
 import os
-os.environ["FFMPEG_BINARY"] = "/usr/local/bin/ffmpeg"
+os.environ["FFMPEG_BINARY"] = "/opt/homebrew/bin/ffmpeg"
 
 def send_email(attachment_path, to_email , singer):
     # Set your email and password
